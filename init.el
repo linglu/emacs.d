@@ -22,8 +22,8 @@
 (load-theme 'monokai 1)
 
 ;; for emacs-w3m
-(add-to-list `load-path "~/emacs-w3m/")
-(require 'w3m-load)
+;; (add-to-list `load-path "~/emacs-w3m/")
+;; (require 'w3m-load)
 
 ;; for input method conflit
 (global-unset-key (kbd "C-SPC"))
